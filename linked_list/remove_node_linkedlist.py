@@ -1,5 +1,6 @@
 import linked_list
 
+# Remove n-th node from the end of a linked list
 def remove_last_nth_node(head, n):
     ptr1 = head
     ptr2 = head

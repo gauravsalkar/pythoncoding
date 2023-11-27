@@ -1,8 +1,10 @@
+# Class for representing a node in a linked list
 class Node:
     def __init__(self, data) -> None:
         self.data = data
         self.next = None
-    
+
+# Create a linked list from a list of integers   
 def create(arr) -> Node:
     if arr is None or len(arr) == 0:
         return None
@@ -15,6 +17,7 @@ def create(arr) -> Node:
 
     return head
 
+# return a string representation of the linked list for convenience of printing
 def to_string(node):
     s = []
     while node is not None:

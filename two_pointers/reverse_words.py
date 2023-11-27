@@ -1,3 +1,5 @@
+# Reverse words in a string
+# "This is a nice string" -> "string nice a is This"
 def reverse_words(words):
 
     # convert str to list
@@ -38,7 +40,7 @@ def reverse_words(words):
 
     return "".join(str)
 
-
+# Reverse characters in a single string
 def reverse_word(str, start, end):
      while start < end:
         str[start],str[end] = str[end],str[start]

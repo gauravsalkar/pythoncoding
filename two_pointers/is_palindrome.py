@@ -1,3 +1,4 @@
+# Check whether a string as a palindrome or not
 def is_palindrome(str):
     left = 0
     right = len(str) - 1
